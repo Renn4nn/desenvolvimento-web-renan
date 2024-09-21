@@ -1,0 +1,86 @@
+body{
+    background-color: #f0f4f8;
+    text-align: center;
+    margin: 0 auto;
+    font-family:sans-serif;
+    padding: 0 auto;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    border: 5px solid white;
+}
+
+/* imagem - nome - universidade */
+header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #007bff solid 10px;
+    background-color: #0056b3;
+    padding: 5px;
+    align-items: center;
+    color: white;
+}
+
+/*atalhos da pagina*/
+.navegação{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+/*div pai dos itens*/
+.container{
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*contudo informativo*/
+.itens{
+    border: solid black;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+ul{ /* listas */
+    list-style: none;
+    padding: 0px;
+}
+
+li{/* Itens das listas */
+    background-color: #e7f3fe; /* Cor de fundo dos itens da lista */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 10px;/*Espaçamento maior em cima*/
+    border-radius: 15px; /* Bordas arredondadas */
+    font-weight: bold;/*Negrito nas fontes*/
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+i{ /* icones */
+    color: black;
+}
+
+h2{
+    color: #0056b3;
+}
+
+h3{
+    color: darkorange;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
